@@ -1,3 +1,60 @@
 .footer {
+    display: grid;
     height: 72px;
+    background: var(--primary);
+    grid-template-columns: 1fr auto;
+    column-gap: 40px;
+    align-items: center;
+    color: var(--white);
+
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0 32px;
+}
+
+.copyright {
+
+}
+
+.userRules {
+    justify-self: end;
+
+}
+
+.userRules {
+    margin: 0;
+    padding: 0;
+}
+
+.userRules li {
+    display: inline-block;
+}
+.userRules li:not(:first-child) {
+    margin-left: 40px;
+}
+
+@media (max-width: 950px) {
+    .footer {
+        height: auto;
+        grid-template-columns: 1fr;
+    }
+    
+    .copyright {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .userRules {
+        justify-self: start;
+    }
+
+    .userRules li {
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .userRules li:not(:first-child) {
+        margin-left: 0;
+    }
 }
