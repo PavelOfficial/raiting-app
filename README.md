@@ -34,3 +34,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## API Configuration
+The application uses the following API endpoints:
+- `NEXT_PUBLIC_DOMAIN=https://courses-top.ru`
+- Top Page API:
+  - Find: `/api/top-page/find`
+  - By Alias: `/api/top-page/byAlias/`
+- Product API:
+  - Find: `/api/product/find`
+- Review API:
+  - Create Demo: `/api/review/create-demo`
+
+## Design Reference
+- Figma: https://www.figma.com/design/eHIyKZXUUtMf1BQiuv6tTA/%D0%9A%D1%83%D1%80%D1%81-2---NextJS?node-id=0-1&p=f&t=DmPbziy9MMt3KsEY-0
